@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background-color: #6f162b;
+  background-color: rgb(253,174,174);
   color: #ca738b;
   background-size: cover;
   background-repeat: repeat-y;
@@ -58,7 +58,7 @@ body {
    CARDS
 ========================= */
 .resource-card {
-  background-color: rgba(85, 11, 33, 0.95);
+  background-color: rgba(180,153,130);
   margin: 2em ;
   padding: 1.5em;
   border-radius: 12px;
