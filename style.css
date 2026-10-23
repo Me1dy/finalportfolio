@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background-color: rgb(180,153,130);
+  background-color: (246,226,179);
   color: #ca738b;
   background-size: cover;
   background-repeat: repeat-y;
@@ -16,7 +16,7 @@ body {
    NAVBAR
 ========================= */
 .navbar {
-  background-color: rgb(253,174,174);
+  background-color: rgb(180,153,130);
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
