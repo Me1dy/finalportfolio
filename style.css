@@ -6,10 +6,8 @@ body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
   background-image: url(backgroundfinal.jpg);
-  background-repeat: repeat-x, repeat-y;
   color: #FDAEAE;
-  background-size: cover;
-  background-repeat: repeat-y;
+  background-repeat: repeat-x, repeat-y;
   background-attachment: fixed;
 }
 
