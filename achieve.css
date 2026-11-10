@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #FDAEAE;
+  background-repeat: repeat;
+
+  background-attachment: fixed;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+  background-color: rgb(253,174,174);
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-left img {
+  height: 35px;
+}
+
+.navbar-right {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right a {
+  color: #7e6651ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.6s
+}
+
+.navbar-right a:hover {
+  color: rgb(180,153,130);
+  text-decoration: underline;
+}
+.navbar-right a:active {
+  color: rgb(244, 133, 161);
+}
+
+/* =========================
+   PAGE LAYOUT
+========================= */
+
+
+
+
+
+
+
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  transition: 0.5s;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #7e6651;
+  max-width: 300px;;
+  height: auto;
+  
+
+}
+
+div.gallery-item:hover {
+  border: 1px solid;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+  color: #fdaeae;
+}
+
+div.gallery-item div.desc {
+  
+  padding: 10px;
+  text-align: center;
+  background-color: #7e6651;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.home-card {
+  
+  margin: 2em auto;
+  padding: 1em;
+}
+
+/* =========================
+   CARDS
+========================= */
+.resource-card {
+  background-color: #7E6651;
+
+  margin: 2em ;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.09);
+}
+
+/* =========================
+   BIO SECTION
+========================= */
+
+
+/* =========================
+   PROJECT LAYOUT
+========================= */
+.project {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+}
+
+
+
+.reflection {
+  flex: 1;
+  background-color: rgba(246,226,179, 0.04);
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.reflection h3 {
+  margin-top: 0;
+  color: #fdaeae;
+}
+
+.reflection p {
+  font-size: 0.95em;
+  color: rgb(251, 238, 208);
+}
+
+/* =========================
+   LINKS / ICONS
+========================= */
+
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  color: #cccccc;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 900px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project iframe {
+    width: 100%;
+    min-width: 0;
+    height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .navbar-right {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
