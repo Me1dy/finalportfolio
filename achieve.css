@@ -78,7 +78,7 @@ div.gallery-item {
   margin: 5px;
   border: 1px solid #7e6651;
   max-width: 300px;;
-  height: auto;
+  max-height: 250px;
   
 
 }
