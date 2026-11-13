@@ -125,7 +125,7 @@ div.gallery-item div.desc {
 ========================= */
 .resource-card {
   background-color: #7E6651;
-
+  margin-top: 3em;
   margin: 2em ;
   padding: 1.5em;
   border-radius: 12px;
