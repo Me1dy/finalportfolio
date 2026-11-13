@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
+  background-image: url('backgroundfinal.jpg');
   color: #FDAEAE;
   background-repeat: repeat;
 
@@ -78,7 +79,7 @@ div.gallery-item {
   margin: 5px;
   border: 1px solid #7e6651;
   max-width: 300px;;
-  max-height: 250px;
+  height: auto;
   
 
 }
