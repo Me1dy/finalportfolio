@@ -151,7 +151,7 @@ body {
 
 .reflection p {
   font-size: 0.95em;
-  color: #dddddd;
+  color: #f6e2b3;
 }
 
 /* =========================
@@ -176,7 +176,7 @@ body {
   height: 80px;
   width: 80px;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 2px solid #f6e2b3;
   object-fit: cover;
 }
 
@@ -186,7 +186,7 @@ body {
 footer {
   text-align: center;
   font-size: 0.85em;
-  color: #cccccc;
+  color: #f6e2b3;
 }
 
 /* =========================
